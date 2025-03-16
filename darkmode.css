@@ -1,0 +1,38 @@
+* {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.dark-mode {
+    background-color: #a3a3a3 !important;
+    color: white !important;
+}
+
+.dark-mode .calculator {
+    background-color: rgb(0, 0, 0) !important;
+    border-color: rgb(106, 106, 106) !important;
+}
+
+.dark-mode .op1 {
+    background-color: hsl(0, 1%, 17%) !important;
+    color: white !important;
+}
+.dark-mode .op2 {
+    background-color: hsl(0, 0%, 56%) !important;
+    color: white !important;
+}
+.dark-mode .op3 {
+    background-color: hsl(41, 78%, 55%) !important;
+    color: white !important;
+}
+.dark-mode .n1 {
+    background-color: hsl(0, 0%, 26%) !important;
+    color: white !important;
+}
+
+
+.dark-mode input {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgba(184, 182, 182, 0.376) !important;
+}
