@@ -2,7 +2,13 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
+#display {
+    font-size: 18px;
+    touch-action: manipulation;
+}
+button {
+    touch-action: manipulation;
+}
 .dark-mode {
     background-color: #a3a3a3 !important;
     color: white !important;
